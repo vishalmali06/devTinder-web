@@ -24,6 +24,9 @@
 - Logout feature
 - Get the feed and add the feed in the store 
 - Build the user card in the feed
+- Edit Profile featurte 
+- Show toast message on save of profile
+- See all my connections
 
 Body
     NavBar
