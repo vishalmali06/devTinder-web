@@ -21,7 +21,7 @@
 - Refactor our code to add constant file + create a componet folder
 - You should not be able access other routes without login 
 - If token is not present redirect user to login page
-- logout 
+- logout feature
 
 Body
     NavBar
