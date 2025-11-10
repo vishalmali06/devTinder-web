@@ -21,7 +21,9 @@
 - Refactor our code to add constant file + create a componet folder
 - You should not be able access other routes without login 
 - If token is not present redirect user to login page
-- logout feature
+- Logout feature
+- Get the feed and add the feed in the store 
+- Build the user card in the feed
 
 Body
     NavBar
