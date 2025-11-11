@@ -29,11 +29,11 @@
 - New Page - See all my connections
 - New Page - See all my connection requests 
 - Feature to accept reject connection request 
+- Accept/Ignore the user card from Feed 
+- Signup New User
 
 Remaining:
-- Accept or Ignore the user card from Feed 
-- Signup New User
-- E2ETesting  
+- E2E Testing  
 
 
 Body
