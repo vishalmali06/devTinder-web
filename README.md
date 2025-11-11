@@ -26,7 +26,8 @@
 - Build the user card in the feed
 - Edit Profile featurte 
 - Show toast message on save of profile
-- See all my connections
+- New Page - See all my connections
+- New Page - See all my connection requests 
 
 Body
     NavBar
