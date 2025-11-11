@@ -42,3 +42,12 @@ Body
     Route=/login => Login 
     Route=/connection => Connections
     Router=/profile => Profile
+
+# Deployment 
+-  Signup on AWS
+- Launch instance 
+- chmod 400 <secret>.pem
+- ssh -i "devTinder-secret.pem" ubuntu@ec2-13-201-230-41.ap-south-1.compute.amazonaws.com
+- Install correct node version 22.11.0
+- Git clone https://github.com/vishalmali06/devTinder.git
+- Git clone https://github.com/vishalmali06/devTinder-web.git
