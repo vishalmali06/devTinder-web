@@ -51,3 +51,14 @@ Body
 - Install correct node version 22.11.0
 - Git clone https://github.com/vishalmali06/devTinder.git
 - Git clone https://github.com/vishalmali06/devTinder-web.git
+- Frontend
+- npm install -> it install the dependencies 
+- npm run build
+- sudo apt update
+- sudo apt install nginx
+- sudo systemctl start nginx
+- sudo systemctl enable nginx
+- Copy code from dist(build files) to /var/www/html
+- sudo scp -r dist/* /var/www/html
+- Enable port 80 of your instance 
+
