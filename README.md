@@ -54,7 +54,7 @@ Body
 - Git clone https://github.com/vishalmali06/devTinder.git
 - Git clone https://github.com/vishalmali06/devTinder-web.git
 
-- Frontend
+# Frontend
     - npm install -> it install the dependencies 
     - npm run build
     - sudo apt update
@@ -65,7 +65,7 @@ Body
     - sudo scp -r dist/* /var/www/html
     - Enable port 80 of your instance 
 
-- Backend
+# Backend
     - npm install
     - updated DB password 
     - npm run start
