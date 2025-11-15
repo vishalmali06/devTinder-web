@@ -101,3 +101,41 @@ Body
             proxy_set_header Host $host;
             proxy_cache_bypass $http_upgrade;
         }   
+
+
+# Adding a acutom Domain name
+- purchased domain name from godaddy 
+- signup on cloudflare & add new domain name
+- change the nameservers on godaddy and point it to cloudflare 
+- wait for sometime till your nameservers are updated - 15 minuts
+- DNA record: A vishalmali.com update the Content with your public server  
+- Enable SSL for Website
+- what is nameservers 
+- what is domain name  
+
+# Sending Emails via SES
+- Create a IAM user 
+- Give access to AmazonSESFullAccess
+- AWS SES: Create an Identity in SES 
+- Verify your domain name
+- Verify an email address
+- Install AWS SDK - V3
+- Code example - https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
+- Setup SESClient
+- Access Credencials should be create in IAM unsed Security Credencials Tab
+- Ad the creadencials ti the env file
+- Write code for SESClient 
+- Write code for Sending email address
+- Make the eamil dyanamic by passing more params to the run function
+
+# Scheduling cron jobs in NodeJS
+- Installing node-cron
+- Learning about cron expressions syntax - crontab.guru
+- Schedule a job 
+- Learn about date-fns date lib. 
+- Find all the unique eamil Id who have got connection Request in previous day
+- Send Email 
+- Explore queue mechanisum to send bulk emails
+- Amazon SES Bulk Emails 
+- Make snedEmail function Dynamic
+- bee-queue & bull npm packages for queue management 
