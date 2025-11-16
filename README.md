@@ -129,13 +129,16 @@ Body
 - Make the eamil dyanamic by passing more params to the run function
 
 # Scheduling cron jobs in NodeJS
-- Installing node-cron
-- Learning about cron expressions syntax - crontab.guru
-- Schedule a job 
-- Learn about date-fns date lib. 
-- Find all the unique eamil Id who have got connection Request in previous day
-- Send Email 
-- Explore queue mechanisum to send bulk emails
-- Amazon SES Bulk Emails 
-- Make snedEmail function Dynamic
-- bee-queue & bull npm packages for queue management 
+    - Installing node-cron
+    - Learning about cron expressions syntax - crontab.guru
+    - Schedule a job 
+    - Learn about date-fns date lib. 
+    - Find all the unique eamil Id who have got connection Request in previous day
+    - Send Email 
+    - Explore queue mechanisum to send bulk emails
+    - Amazon SES Bulk Emails 
+    - Make snedEmail function Dynamic
+    - bee-queue & bull npm packages for queue management 
+
+# Razorpay Payment Gateway Integration
+    - Sign up on Razorpay 

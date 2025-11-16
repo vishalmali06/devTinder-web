@@ -8,6 +8,11 @@ import appStore from './utils/appStore';
 import Feed from './components/Feed';
 import Connections from './components/Connections';
 import Requests from './components/Requests';
+import CancellationRefund from './components/CancellationRefund';
+import ContactUs from './components/ContactUs';
+import Privacy from './components/Privacy';
+import TermsConditions from './components/TermsConditions';
+import Shipping from './components/Shipping';
 
 function App() {
   return (
@@ -21,6 +26,11 @@ function App() {
               <Route path="/profile" element={<Profile />} />
               <Route path="/connections" element={<Connections />} />
               <Route path="/requests" element={<Requests />} />
+              <Route path="/cancellation-refund" element={<CancellationRefund />} />
+              <Route path="/contact-us" element={<ContactUs />} />
+              <Route path="/privacy-policy" element={<Privacy />} />
+              <Route path="/terms-conditions" element={<TermsConditions />} />
+              <Route path="/shipping-policy" element={<Shipping />} />
             </Route>
           </Routes>
         </BrowserRouter>
