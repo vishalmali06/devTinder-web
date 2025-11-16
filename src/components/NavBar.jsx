@@ -45,6 +45,11 @@ const NavBar = () => {
                         </li>
                         <li><Link to="/connections">Cennections</Link></li>
                         <li><Link to="/requests">Requests</Link></li>
+                        <li><Link to="/cancellation-refund">Cancellation & Refund</Link></li>
+                        <li><Link to="/contact-us">Contact Us</Link></li>
+                        <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                        <li><Link to="/terms-conditions">Terms & Conditions</Link></li>
+                        <li><Link to="/shipping-policy">Shipping Policy</Link></li>
                         <li><Link onClick={handleLogout}>Logout</Link></li>
                     </ul>
                 </div>
