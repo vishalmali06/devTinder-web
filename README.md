@@ -154,3 +154,21 @@ Body
     - Ref- https://razorpay.com/docs/payments/server-integration/nodejs/integration-steps/#integrate-with-razorpay-payment-gateway
     - Ref - https://razorpay.com/docs/webhooks/validate-test/
     - Ref - https://razorpay.com/docs/webhooks/payloads/payments/
+    
+# ReaL Time Chat using Websocket(Socket.io)
+    - Build the UI for a chat window on /chat/:targetUserId 
+    - Setup socket.io in backend
+    - npm i socket.io
+    - Setup frontend socket.io-client
+    - Initialise the chat
+    - Create the socket collection 
+    - Liste to events 
+    - Homework: improve the UI 
+    - Homework: Fix Security Bug - auth in web socket
+    - Homework: Fix bug - If I am not friend, then I should not be albe to send message
+    - Homework: featch - Show Green Symbol when online???? - [Last Seen 2 hours ago]
+    - Homework: Limit messages when featching from DB 
+    - Project Ideas: Tic tac toe game
+    - Project Ideas 2 : chess game 
+    - Project ideas 3 : Tyepracer.com
+    

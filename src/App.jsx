@@ -14,6 +14,7 @@ import Privacy from './components/Privacy';
 import TermsConditions from './components/TermsConditions';
 import Shipping from './components/Shipping';
 import Premium from './components/Premium';
+import Chat from './components/Chat';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route path="/connections" element={<Connections />} />
               <Route path="/requests" element={<Requests />} />
               <Route path="/premium" element={<Premium />} />
+              <Route path="/chat/:targetUserId" element={<Chat />} />
               <Route path="/cancellation-refund" element={<CancellationRefund />} />
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/privacy-policy" element={<Privacy />} />
