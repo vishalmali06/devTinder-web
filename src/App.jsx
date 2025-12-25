@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Provider store={appStore}>
-        <BrowserRouter basename="/devtinder">
+        <BrowserRouter basename="/">
           <Routes>
             <Route path="/" element={<Body />}>
               <Route path="/" element={<Feed />} />
